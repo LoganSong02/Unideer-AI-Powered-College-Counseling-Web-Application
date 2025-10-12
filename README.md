@@ -1,8 +1,7 @@
-# Unideer-AI-Powered-College-Counseling-Web-Application
--	Co-founder and leading engineer of an interactive web application offering comprehensive college application management services, dynamic UI interaction, and intelligent school recommendation.
--	Developed a user-friendly frontend using React and Tailwind CSS, and implemented a Python FastAPI backend following domain-driven design principles to efficiently process incoming requests.
--	Utilized DeepSeek API to filter university options based on user preferences, integrated OpenAI's API to generate tailored recommendations, and introduced an AI-powered chatbot to enhance user experience. 
--	Implemented Redis-based rate limiting to manage API usage per user, preventing throttling of DeepSeek and OpenAI APIs and increasing overall API availability from 97% to 99%.
-
-## Note：
-Due to licensing and proprietary restrictions, the source code for this project cannot be publicly released. However, if you're interested in viewing specific portions of the code, please contact me at logansong1015@outlook.com. I will be happy to provide code samples upon request. Thank you for your understanding!
+# Unideer-AI-Powered-College-Counseling-Web-Application (unideer.cn)
+- Developed a full-stack university application platform using Java, ReactJS, and MySQL, supporting school search, application tracking, and school list management.
+- Designed relational schemas for entities like users and universities, and built backend microservices with Spring Boot and Maven.
+- Implemented Spring Security with JWT authentication to enable secure, role-based access for both guests and registered users.
+- Integrated OpenAI API and LangChain to generate personalized school recommendations from user preferences, and built a chatbot to assist with university research and application planning.
+- Used RabbitMQ to decouple services and process school recommendations asynchronously, achieving 75+ QPS at peak load.
+- Built a Redis-based rate limiter to monitor per-user API usage, reducing third-party throttling and boosting availability to 99.9%.
